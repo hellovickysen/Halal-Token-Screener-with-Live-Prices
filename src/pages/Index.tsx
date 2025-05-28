@@ -2,13 +2,11 @@ import MarketStats from "@/components/MarketStats";
 import CryptoChart from "@/components/CryptoChart";
 import PortfolioCard from "@/components/PortfolioCard";
 import CryptoList from "@/components/CryptoList";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background p-8">
+  return <div className="min-h-screen bg-background p-8">
       <div className="max-w-7xl mx-auto">
         <header className="mb-8">
-          <h1 className="text-3xl font-bold mb-2">Crypto Dashboard</h1>
+          <h1 className="text-3xl font-bold mb-2">Sahal Halal Screener Dashboard</h1>
           <p className="text-muted-foreground">Welcome back to your portfolio</p>
         </header>
         
@@ -25,8 +23,6 @@ const Index = () => {
         
         <CryptoList />
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
